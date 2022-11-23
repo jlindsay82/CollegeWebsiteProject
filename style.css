@@ -1,0 +1,102 @@
+/*
+J lindsay
+17/11/2022
+*/
+body{
+		font-family:Lucida Console;
+		background: black;
+		text-align: left;	
+}
+/*3 main separate flex containers - navbar, main, footer*/
+#navbar{
+		display:flex;
+		flex-direction:row;
+		background-color:black;
+		justify-content:flex-start;
+		color:white;
+		width:100%;
+		align-items:flex-end;
+		border-bottom:2px darkslategrey solid;
+}
+#nav1{
+		flex-basis:15%;
+		order:1;
+		padding:5px;
+		align-items:bottom;
+		text-align:;
+}
+#nav2{
+		flex-basis:10%;
+		order:2;
+		padding:5px;
+		text-align:center;
+}
+#nav3{
+		flex-basis:10%;
+		order:3;
+		padding:5px;
+		text-align:center;
+}
+#nav4{
+		flex-basis:20%;
+		order:4;
+		padding:5px;
+		text-align:center;
+}
+#nav5{
+		flex-basis:10%;
+		order:5;
+		padding:5px;
+		text-align:center;
+}
+#nav6{
+		flex-basis:10%;
+		order:6;
+		padding:5px;
+		text-align:center;
+}
+#nav7{
+		flex-basis:10%;
+		order:7;
+		padding:5px;
+		text-align:center;
+}
+#nav8{
+		flex-basis:15%;
+		order:8;
+		padding:5px;
+		text-align:center;
+}
+
+/*2nd flex container has two flex rows - image carousel and ourstory*/
+#main{
+		order:2;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:space-between;
+		width:100%;
+}
+/*main flex area contains main body of page*/
+#body1{
+		flex-basis:100%;
+		order:1;
+		height:auto;
+}
+#body2{
+		flex-basis:100%;
+		order:2;
+		height:auto;
+}
+#footer{
+		flex:7;
+		order:2;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:space-between;
+}
+a:link{color:white;text-decoration:none;}
+a:hover{color:blue;text-decoration:underline;}
+a:visited{color:white;text-decoration:none;}
+a:active{color:white;text-decoration:none;}
